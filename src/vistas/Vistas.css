@@ -1,0 +1,70 @@
+.graf{
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 180px);
+}
+
+.area_graf{
+  border: 1px solid #939191;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* Une los bordes dobles en uno solo */
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  margin: 20px 0;
+}
+
+th, td {
+  padding: 12px 15px; /* Espaciado interno de la celda */
+  text-align: left;
+  border-bottom: 3px solid #120574; /* Línea separadora sutil */
+}
+
+th {
+  background-color: #200675; /* Fondo de cabecera */
+  color: #faf6f6; /* Texto de cabecera */
+}
+
+/* Efecto cebra para mejor legibilidad */
+tbody tr:nth-of-type(even) {
+  background-color: #d8f0f5;
+}
+
+/* Efecto al pasar el ratón */
+tbody tr:hover {
+  background-color: #5a0357;
+  color:#fafbfb;
+  font-weight: bold;
+}
+
+.micro_red{
+  list-style: none;
+  display: flex;
+  gap: 2px;
+  flex-direction: column;
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.lista_micro{
+  background-color: #044173;
+  color: #f7f7f7;
+  padding: 3px;
+  border-radius: 10px;
+  border: 1px solid #f1f7f6;
+  cursor: pointer;
+  box-shadow: 2px 1px 3px 1px #1e1e1e;  
+}
+
+.lista_micro:hover{
+  background-color: #85d9f3;
+  color: #151515;
+  box-shadow: 2px 1px 3px 1px #272728;
+  border: 1px solid #0e0464;  
+}
+
+
+
